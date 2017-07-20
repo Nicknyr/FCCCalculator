@@ -1,0 +1,38 @@
+body {
+  background-color: white;
+}
+
+section {
+  background-color: lightgrey;
+  width: 30%;
+  height: 25em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5em;
+  text-align: center;
+}
+
+#display {
+  height: 3em;
+  width: 100%;
+  background-color: blue;
+  
+}
+
+.row1, .row2, .row3, .row4, .row5 {
+  background-color: black;
+  display: inline-block;
+  margin-right: 1em;
+  margin-top: 1em;
+  height: 10%;
+  width: 15%;
+  text-align: center;
+  vertical-align: middle;
+
+  span {
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: .5em;
+  }
+}
